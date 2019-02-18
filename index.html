@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>My New Pen!</title>
+  
+  <!--  Styles  -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  
+</head>
+ <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="home.html">Web Visualization Dashboard </a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+     <a class="nav-link" href="home.html">Home <span class="sr-only">my first homepage</span></a> 
+      </li>
+      <!-- <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li> -->
+      
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        Visualizations
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+     
+          <!-- <a class="dropdown-item" href="LandingPage.html">Latitude vs. X</a> -->
+             <a class="dropdown-item" href="#">Visualization</a>
+             <a class="dropdown-item" href="LatitudeVsMaxTemp.html">Latitude vs. Max Temp</a>
+             <a class="dropdown-item" href="LatitudeVsHumidity.html">Latitude vs. Humidity</a>
+             <a class="dropdown-item" href="LatitudeVsCloudiness.html">Latitude vs. Cloudiness</a>
+             <a class="dropdown-item" href="LatitudeVsWS.html">Latitude vs. Wind Speed</a>
+
+          
+          
+          
+        </div>
+      </li>
+  <li class="nav-item">
+        <a class="nav-link disabled" href="data.html">Data</a>
+      </li> 
+    </ul>
+    <!-- <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form> -->
+  </div>
+</nav>
+   
+  </div>
+</nav>
+  
+<body>
+  
+  <h1>Summary: Latitude vs. x<a class="headerlink" href="#welcome-to-flask" title="Permalink to this headline"></a></h1>
+  <!-- <img alt="Flask: web development, one drop at a time" class="align-right" src="_images/logo-full.png"> -->
+  
+  <div class="image">
+         <img src="https://github.com/carloscu/hw11_web_visualization/blob/4b51053134c0d7705359e83b1b8daae4eafa47ba/Resources/assets/images/Fig1.png?raw=true" alt="LatitudeVsMaxTemp.png">
+      </div>
+  
+  <p>The purpose of this project was to analyze how weather changes as you get closer to the equator. To accomplish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset on over 500 cities.
+    <div>
+  </div> 
+ After assembling the dataset, we use matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind  speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed.</p>
+  <!--
+
+    Wow! What do you want to build?
+
+    You have so many possibilities right now... Looking for something to kick off?
+    How about a simple folio page to show off everything you're going to make!
+   
+  -->
+  <footer class="footer mt-auto py-3">
+  <div class="container">
+    <h2>
+      <span class="text-muted">Visualizations</span>
+    </h2>
+    
+   <div>
+    </div>
+    
+  </div>
+    
+    
+    
+</footer>
+  <!-- Scripts -->
+  <!-- <script src="scripts/index.js"></script> -->
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
